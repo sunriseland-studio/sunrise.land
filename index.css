@@ -3,3 +3,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@keyframes slow-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-slow {
+  animation: slow-rotate 48s ease-in infinite reverse;
+}
+
+h3 {
+  font-family: times, serif;
+}
